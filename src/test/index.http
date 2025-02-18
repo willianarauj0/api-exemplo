@@ -1,1 +1,15 @@
-POST  https://opulent-enigma-x7xjv9v6j6r3q6-8080.app.github.dev/
+@url =  https://opulent-enigma-x7xjv9v6j6r3q6-8080.app.github.dev
+
+###
+GET {{url}}/tarefas
+
+###
+POST {{url}}/tarefas
+Content-Type: application/json
+
+{
+    "id": 1,
+    "descricao": "Nova Tarefa"
+}
+
+ 
